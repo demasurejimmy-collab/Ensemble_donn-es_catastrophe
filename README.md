@@ -16,10 +16,9 @@ Ce projet a été réalisé dans le cadre d'un mandat pour le cabinet *Numeris C
 Ensemble_données_catastrophe/
 ├── global_disaster_response_2018_2024   # Données brutes 
 ├── audit_qualite_donnees          # Notebooks de nettoyage 
-├── requetes                # Schéma et requêtes SQL pour la BI
-├── scripts                 # Python
-
-
+├── scripts_nettoyage              # Automatisation du nettoyage
+├── catastrophe_donnees_nettoyees  # Fichier nettoyé et traduit généré
+├── requetes                       # Schéma et requêtes SQL pour la BI
 ├── .gitignore          # Fichiers ignorés par Git
 ├── plan_repartition    # Répartition des tâches dans l'équipe
 ├── README.md           # Descriptif du projet
