@@ -25,10 +25,10 @@ MarkupSafe==3.0.3
 matplotlib==3.11.0
 mdurl==0.1.2
 narwhals==2.22.1
-numpy==2.5.0
-packaging==26.2
-pandas==3.0.3
-pillow==12.2.0
+numpy>=2.3.3,<2.6
+packaging>=20,<25
+pandas>=2.2,<3
+pillow<12,>=7.1.0
 playwright==1.61.0
 protobuf==5.29.6
 pyarrow==24.0.0
