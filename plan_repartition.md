@@ -7,7 +7,9 @@
 | Audit de qualité des données | Jimmy | ✅ Terminé | Haute | 16/07/26 |
 | Definition du script de Nettoyage Automatique | Jimmy | ✅ Terminé | Haute | 16/07/26 |
 | Organisation structurelle des fichiers et vérification du nettoyage | Marilou | ✅ Terminé | Moyenne | 16/07/26 |
-| Analyse des donnees | :---: | 🚧 En cours | Haute | 16/07/26 |
+| Analyse des donnees (structuration sur docs) | Marilou | ✅ Terminé  | Haute | 16/07/26 |
+| Analyse des donnees (codage) | Jimmy | ✅ Terminé  | Haute | 16/07/26 |
+| Analyse des donnees (relecture) | Marilou | ✅ Terminé  | Moyenne |20/07/26 |
 
 ### Légende des statuts
 * ⏳ **En attente**

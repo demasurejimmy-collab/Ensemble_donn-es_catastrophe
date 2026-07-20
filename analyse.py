@@ -141,15 +141,14 @@ fig = px.bar(
     title="Catastrophes par mois, pays et type",
     labels={"mois": "Mois", "nb": "Nombre d'événements", "pays": "Pays"}
 )
- #-------------
- # Masquer tous les titres d'axes Y individuels
+
 fig.update_yaxes(title_text="")
 
-# Ajouter une annotation centrée à gauche pour faire office d'axe Y unique
+
 fig.add_annotation(
     dict(
-        x=-0.07,  # Position horizontale (ajustez selon votre besoin)
-        y=0.5,    # Position verticale (centré)
+        x=-0.07,  
+        y=0.5,    
         text="Nombre d'événements",
         textangle=-90,
         showarrow=False,
@@ -159,17 +158,13 @@ fig.add_annotation(
     )
 )
 
-# Ajuster les marges pour laisser de la place à l'annotation
+
 fig.update_layout(
     barmode="group",
     margin=dict(l=80) 
 )
 
 fig.show()
-#-----------------
-
-##fig.update_layout(barmode="group")
-##fig.show()
 
 # partie 2 : ______________________________________________________________________________________________________________________________________________________________
 
@@ -189,7 +184,7 @@ plt.show()
 # 9. Pertes majeures :👉 Les 25 % événements les plus coûteux sont considérés comme majeurs (en terme de dégats* : nous avons interpreter la colonne #pertes économiques dans le sens impact/dégats économiques résultants de la catastrophe).
 seuil_pertes_majeures = df['pertes_economiques_usd'].quantile(0.75)
 df['categorie_pertes'] = np.where(df['pertes_economiques_usd'] >= seuil_pertes_majeures,'Majeur','Standard')
-df.to_csv("catastrophes_nettoyees.csv", index=False)
+df.to_csv("catastrophe_donnees_nettoyees.csv", index=False)
 
 df_majeurs = df[df['categorie_pertes'] == 'Majeur'].copy()
 df_majeurs = df_majeurs.sort_values(by='pertes_economiques_usd', ascending=False)
@@ -201,7 +196,7 @@ print("\n")
 # 10. Aides majeures : 👉 Les 25 % événements les plus coûteux en terme d'aides financières
 seuil_aides_majeures = df['aide_financiere_usd'].quantile(0.75)
 df['categorie_aide'] = np.where(df['aide_financiere_usd'] >= seuil_aides_majeures,'Budget Exceptionnel','Enveloppe Standard')
-df.to_csv("catastrophes_nettoyees.csv", index=False)
+df.to_csv("catastrophe_donnees_nettoyees.csv", index=False)
 
 df_majeures = df[df['categorie_aide'] == 'Budget Exceptionnel'].copy()
 df_majeures = df_majeures.sort_values(by='aide_financiere_usd', ascending=False)
