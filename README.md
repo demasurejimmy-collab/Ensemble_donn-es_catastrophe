@@ -17,14 +17,15 @@ Ensemble_données_catastrophe/
 ├── global_disaster_response_2018_2024   # Données brutes 
 ├── audit_qualite_donnees          # Notebooks de nettoyage 
 ├── scripts_nettoyage              # Automatisation du nettoyage
-├── catastrophe_donnees_nettoyees  # Fichier nettoyé, traduit généré et aggrémentés de nouvelles colonnes
+├── catastrophe_donnees_nettoyees  # Fichier nettoyé, traduit    généré et aggrémentés de nouvelles colonnes
 ├── analyse                        # Analyse des données
+├── rapport                        # Rapport suite à l'analyse du CSV
 ├── requetes                       # Schéma et requêtes SQL pour la BI
 ├── seasonal-events-calendar       # CSv supplémentaire de définition des saisonnalités 
 ├── scripts-saison-nettoyage       # Nettoyage et Harmonisation pour concordance des fichiers 
 ├── saisonnalite                   # Fichier nettoyé et généré
 ├── .gitignore          # Fichiers ignorés par Git
 ├── plan_repartition    # Répartition des tâches dans l'équipe
-├── README.md           # Descriptif du projet
+├── README              # Descriptif du projet
 ├── requirements        # Bibliothèques nécessaires au projet
 └── suivi               # Descriptif des étapes suivies

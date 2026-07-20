@@ -10,6 +10,8 @@
 | Analyse des donnees (structuration sur docs) | Marilou | ✅ Terminé  | Haute | 16/07/26 |
 | Analyse des donnees (codage) | Jimmy | ✅ Terminé  | Haute | 16/07/26 |
 | Analyse des donnees (relecture) | Marilou | ✅ Terminé  | Moyenne |20/07/26 |
+| Mise à jour de la structure projet | Marilou | ✅ Terminé  | Moyenne |20/07/26 |
+| Rapport d'analyse | Marilou | ✅ Terminé  | Moyenne |20/07/26 |
 
 ### Légende des statuts
 * ⏳ **En attente**
