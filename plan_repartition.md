@@ -12,6 +12,8 @@
 | Analyse des donnees (relecture) | Marilou | ✅ Terminé  | Moyenne |20/07/26 |
 | Mise à jour de la structure projet | Marilou | ✅ Terminé  | Moyenne |20/07/26 |
 | Rapport d'analyse | Marilou | ✅ Terminé  | Moyenne |20/07/26 |
+| Création SQL : schéma relationnel, base, tables, requêtes | Jimmy | ✅ Terminé  | Haute |21/07/26 |
+| Support presentation et harmonisation des fichiers du projet | Marilou | ✅ Terminé  | Moyenne |21/07/26 |
 
 ### Légende des statuts
 * ⏳ **En attente**

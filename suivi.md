@@ -34,8 +34,14 @@ Ce fichier sert de suivi quotidien. Chaque fin de journée, il précise nos avan
 | 20/07 | Analyse | Pertes économiques moyennes par continent | Determine le niveau de pertes économiques par continent |
 | 20/07 | Analyse | Distribution (répartition) du temps de réponse selon l'intensité de la catastrophe | Permet d'observer une correlation potentielle entre l'intensité de la catastrophe et le temps de réponses des équipes d'aides déployées |
 | 20/07 | Analyse | Score d'efficacité : Temps de réponse vs efficacité |Permet de mettre en avant l'efficacité des équipes sur place dans leur réponse fournie |
-| **---** | **REQUÊTES** | **---** | **---** |
-| 18/07 | Requêtes | Optimisation index | Problème : Temps de réponse lent. Arbitrage : Ajout index sur colonne ID. |
+| **---** | **REQUÊTES** | **TITRES** | **INFOS** |
+| 21/07 | Requêtes | nombre d'événements par pays | Infos : Permet d'identifier les zones les plus exposées: Priorisation des ressources |
+| 21/07 | Requêtes | nombre d'événements par types | Infos : Permet de comprendre quels types de catastrophes dominent : Pilotage des politiques de prévention |
+| 21/07 | Requêtes | pertes économiques par continent | Infos : Permet d'identifier les zones où les catastrophes coûtent le plus : Allocation budgétaire |
+| 21/07 | Requêtes | délais d'intervention moyen par pays | Infos : Permet d'évaluer la performance des équipes de réponses : KPIs opérationnels |
+| 21/07 | Requêtes | croisement type vs continent | Infos : Permet de comprendre quels types de catatrophes touchent quelles régions : Ségmentation géographique |
+**---** | **PILOTAGE** | **---** | **---** |
+| 21/07 | Création et mise à jour du REAMDE, fichier de suivi et plan de répartition | Mise à jour continue chaque jour |
 
 ---
 

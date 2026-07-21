@@ -20,7 +20,10 @@ Ensemble_données_catastrophe/
 ├── catastrophe_donnees_nettoyees  # Fichier nettoyé, traduit    généré et aggrémentés de nouvelles colonnes
 ├── analyse                        # Analyse des données
 ├── rapport                        # Rapport suite à l'analyse du CSV
-├── requetes                       # Schéma et requêtes SQL pour la BI
+├── schema_relationnel             # Schéma de modélisation
+├── db.sqlite                      # SCréation de la base sql
+├── chargement_db                  # Création des tables et chargement CSV
+├── requetes                       # Création des cinq requêtes
 ├── seasonal-events-calendar       # CSv supplémentaire de définition des saisonnalités 
 ├── scripts-saison-nettoyage       # Nettoyage et Harmonisation pour concordance des fichiers 
 ├── saisonnalite                   # Fichier nettoyé et généré
