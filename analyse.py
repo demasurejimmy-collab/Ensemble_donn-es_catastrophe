@@ -271,3 +271,4 @@ plt.xlabel("Temps de réponse (h)")
 plt.ylabel("Score d’efficacité")
 plt.grid(True)
 plt.show()
+
